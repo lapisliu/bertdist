@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+*.conda/
+*.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe.
+*.manifest
+*.spec
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spark / Hadoop
+spark-warehouse/
+metastore_db/
+logs/
+*.out
+*.err
+
+# Data output (Parquet, checkpoints, cached datasets)
+parquet_output/
+bertoutputs/
+outputs/
+*.parquet
+
+# Model weights / checkpoints
+*.pt
+*.pth
+checkpoints/
+model_checkpoints/
+
+# Temporary files
+*.tmp
+*.swp

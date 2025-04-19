@@ -1,0 +1,7 @@
+The quick brown fox jumps over the lazy dog.
+Machine learning models are transforming the world.
+PySpark is a powerful tool for distributed data processing.
+BERT is a state-of-the-art language model developed by Google.
+Knowledge distillation helps compress large models into smaller ones.
+This is a test sentence for BERT inference using Spark.
+
