@@ -7,5 +7,4 @@ tokenizers==0.21.1
 torch --index-url https://download.pytorch.org/whl/cpu
 tqdm==4.67.1
 transformers==4.51.3
-spacy
-glob
+spacy==3.7.2
