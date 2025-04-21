@@ -2,9 +2,12 @@ import argparse
 import spacy
 import glob
 import os
+import spacy.cli
 
 # Load spaCy model once
 nlp = spacy.load("en_core_web_sm")
+# Download the spaCy English model
+spacy.cli.download("en_core_web_sm")
 
 def split_sentences_with_spacy(input_path, output_path):
     with open(input_path, 'r', encoding='utf-8') as infile:
@@ -34,6 +37,9 @@ def parse_args():
     return parser.parse_args()
 
 def main():
+    print("Downloading spaCy model...")
+    spacy.cli.download("en_core_web_sm")
+    print("Model download complete.")
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
 
