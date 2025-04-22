@@ -2,6 +2,7 @@ data_preprocess_spark_hdfs.py usage:
 
 mkdir -p ms_marco/v1.1
 cd ms_marco/v1.1
+
 curl -L   "https://huggingface.co/datasets/microsoft/ms_marco/resolve/main/v1.1/train-00000-of-00001.parquet"   --output train-00000-of-00001.parquet
 
 curl -L   "https://huggingface.co/datasets/microsoft/ms_marco/resolve/main/v1.1/test-00000-of-00001.parquet"   --output test-00000-of-00001.parquet
